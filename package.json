@@ -1,18 +1,10 @@
 {
   "name": "mission_management",
   "version": "1.0.0",
-  "description": "Test",
+  "description": "",
   "keywords": [],
-  "homepage": "https://github.com/BugingoJanvier/mission_management#readme",
-  "bugs": {
-    "url": "https://github.com/BugingoJanvier/mission_management/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BugingoJanvier/mission_management.git"
-  },
   "license": "ISC",
-  "author": "Bugingo Janvier",
+  "author": "",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
