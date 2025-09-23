@@ -1,6 +1,7 @@
 {
   "name": "mission_management",
   "version": "1.0.0",
+  "type": "module",
   "description": "A simple mission management system",
   "keywords": [],
   "license": "ISC",
@@ -13,11 +14,14 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
-    "prepare": "husky && husky install"
+    "prepare": "husky && husky install",
+    "create:db": "node ./src/database/dbInit.js"
   },
   "dependencies": {
     "dotenv": "^17.2.2",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "sequelize": "^6.37.7",
+    "tedious": "^18.6.1"
   },
   "repository": {
     "type": "git",
